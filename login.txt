@@ -1,0 +1,7 @@
+nome da imagem docker: joseevandro1989/callcenterdatabase
+
+host: localhost 
+port: 3366
+pass: 1234
+
+database name: callcenter 
