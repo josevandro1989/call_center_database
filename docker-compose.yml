@@ -1,0 +1,11 @@
+version: "3.7"
+
+services:
+  mysql-server-db:
+    container_name: mysql-callcenter
+    image: mariadb:latest
+    ports:
+      - "3366:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 1234
+      MYSQL_DATABASE: callcenter
